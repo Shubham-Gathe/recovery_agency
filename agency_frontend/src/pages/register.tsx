@@ -27,7 +27,7 @@ const Login: React.FC = () => {
             'password':password,
         }
         try {
-            const response = await axios.post('https://cda2-117-204-237-240.ngrok-free.app/sign_up',postData, {
+            const response = await axios.post('http://16.171.247.65:3000/sign_up',postData, {
                 headers: {
                     'Authorization': authToken,
                     'Content-Type':'application/json'

@@ -18,7 +18,7 @@ const Login: React.FC = () => {
         setError(null);
 
         try {
-            const response = await axios.post<LoginResponse>('https://cda2-117-204-237-240.ngrok-free.app/login', {
+            const response = await axios.post<LoginResponse>('http://16.171.247.65:3000/login', {
                 email,
                 password,
             });

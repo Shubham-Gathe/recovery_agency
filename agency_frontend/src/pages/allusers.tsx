@@ -11,7 +11,7 @@ const AllUsers = () => {
         // Function to fetch data
         const fetchData = async () => {
             try {
-                const response = await axios.get('https://cda2-117-204-237-240.ngrok-free.app/user_block/users', {
+                const response = await axios.get('http://16.171.247.65:3000/user_block/users', {
                     headers: {
                         'Authorization': authToken,
                         'Content-Type': 'application/json',
